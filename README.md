@@ -23,7 +23,10 @@ A solução utiliza Machine Learning (Regressão Linear), engenharia de features
 # 🔗 Vídeo de Apresentação
 
  Confira a explicação completa do projeto no YouTube:
-👉 **[Clique aqui para assistir]([https://youtube.com/seu_link_aqui](https://youtu.be/ueN8HRd45YE))**
+<p align="center">
+  <a href="https://youtu.be/ueN8HRd45YE">🎥 Clique aqui para assistir ao vídeo</a>
+</p>
+
 
 # 📁 Estrutura do Projeto
 
