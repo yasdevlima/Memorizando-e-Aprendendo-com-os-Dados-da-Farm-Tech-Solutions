@@ -20,14 +20,14 @@
 Este projeto implementa um Assistente Agrícola Inteligente capaz de prever o rendimento da plantação a partir de variáveis do solo.
 A solução utiliza Machine Learning (Regressão Linear), engenharia de features, tratamento de dados, validação, e um dashboard interativo em Streamlit para exibir previsões, métricas e recomendações automáticas de manejo agrícola. O objetivo é oferecer uma ferramenta simples e intuitiva para auxiliar produtores rurais na tomada de decisão.
 
-#🔗 Vídeo de Apresentação
+# 🔗 Vídeo de Apresentação
 
  Confira a explicação completa do projeto no YouTube:
 👉 **[Clique aqui para assistir]([https://youtube.com/seu_link_aqui](https://youtu.be/ueN8HRd45YE))**
 
-#📁 Estrutura do Projeto
+# 📁 Estrutura do Projeto
 
-# modelo.py
+## modelo.py
  - Gera dados simulados
  - Cria features novas
  - Treina o modelo de Regressão Linear
@@ -36,7 +36,7 @@ A solução utiliza Machine Learning (Regressão Linear), engenharia de features
  - modelo_regressao.pkl
  - metricas_modelo.csv
 
-# app.py
+## app.py
 
  - Carrega o modelo treinado
  - Mostra métricas em gráfico
