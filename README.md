@@ -18,64 +18,46 @@
 # Sobre o Projeto
 
 Este projeto implementa um Assistente Agrícola Inteligente capaz de prever o rendimento da plantação a partir de variáveis do solo.
-A solução utiliza Machine Learning (Regressão Linear), engenharia de features, tratamento de dados, validação, e um dashboard interativo em Streamlit para exibir previsões, métricas e recomendações automáticas de manejo agrícola.
+A solução utiliza Machine Learning (Regressão Linear), engenharia de features, tratamento de dados, validação, e um dashboard interativo em Streamlit para exibir previsões, métricas e recomendações automáticas de manejo agrícola. O objetivo é oferecer uma ferramenta simples e intuitiva para auxiliar produtores rurais na tomada de decisão.
 
-O objetivo é oferecer uma ferramenta simples e intuitiva para auxiliar produtores rurais na tomada de decisão.
+#🔗 Vídeo de Apresentação
 
-## 1. Pipeline de Machine Learning
-# Etapas implementadas:
-1. Geração e preparo dos dados
+ Confira a explicação completa do projeto no YouTube:
+👉 **[Clique aqui para assistir]([https://youtube.com/seu_link_aqui](https://youtu.be/ueN8HRd45YE))**
 
-O script modelo.py cria um conjunto de dados simulando informações agrícolas:
-Umidade
-pH do solo
-Nitrogênio, Fósforo e Potássio
-Rendimento da cultura
+#📁 Estrutura do Projeto
 
-2. Engenharia de Features
+# modelo.py
+ - Gera dados simulados
+ - Cria features novas
+ - Treina o modelo de Regressão Linear
 
-Foram criadas novas variáveis para melhorar o aprendizado do modelo:
-Distância do pH ideal
-Soma total de nutrientes
-Interação entre pH e umidade
-Umidade ao quadrado
+ Salva:
+ - modelo_regressao.pkl
+ - metricas_modelo.csv
 
-3. Separação dos dados
-train_test_split(test_size=0.2)
+# app.py
 
-4. Modelo
-
-O modelo utilizado foi uma Regressão Linear, por ser simples, interpretável e adequado a problemas supervisados contínuos.
-
-5. Avaliação
-
-As métricas calculadas foram:
-MAE
-MSE
-RMSE
-R²
-
-As métricas são salvas automaticamente em:
-model/metricas_modelo.csv
-
-O modelo final é salvo em:
-model/modelo_regressao.pkl
-
+ - Carrega o modelo treinado
+ - Mostra métricas em gráfico
+ - Permite ajustar valores pelo usuário
+ - Faz previsões
+ - Mostra recomendações automáticas
+ - 
 ## 📚 Bibliotecas Utilizadas
 
--pandas
--numpy
--scikit-learn
--joblib
--streamlit
--plotly
+ - pandas
+ - numpy
+ - scikit-learn
+ - joblib
+ - streamlit
+ - plotly
 
 ## Conclusão
 
-Este projeto entrega uma solução completa que integra:
-Machine Learning
-Engenharia de dados
-Métricas e validação
-Interface interativa
-Recomendações inteligentes
-Servindo como um protótipo funcional de um assistente agrícola moderno e acessível.
+ - O projeto entrega um sistema simples e funcional que combina:
+ - Machine Learning
+ - Dashboard interativo
+ - Previsões agrícolas
+ - Recomendações automáticas
+ - Perfeito para demonstrar aplicação prática de IA no agronegócio
